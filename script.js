@@ -75,6 +75,6 @@ function reset() {
 
 
 // Listeners de eventos para entrada de teclado e o botão de recomeçar:
-testArea.addEventListener("keypress", start, false);
+testArea.addEventListener("keydown", start, false);
 testArea.addEventListener("keyup", spellCheck, false);
 resetButton.addEventListener("click", reset, false);
